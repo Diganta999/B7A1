@@ -64,6 +64,12 @@ class Student extends Person{
         return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
     }
 };
+//Problem 7 
+
+const getIntersection = (array1:number[],array2:number[]):number[]=>{
+    return array1.filter((number)=>array2.includes(number));
+};
+
 
 
 
