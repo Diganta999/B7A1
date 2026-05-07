@@ -11,4 +11,14 @@ const reverseString =(input:string):string=>{
     return input.split("").reverse().join("");
 };
 
+// Problem 3 
+
+type StringOrNumber = string | number;
+
+const checkType = (input:StringOrNumber):string=>{
+    if(typeof input === "string"){
+        return "String"
+    }
+    return "Number";
+};
 
