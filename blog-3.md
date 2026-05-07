@@ -1,0 +1,5 @@
+Blog : 3 How Generics help in reusable and strongly typed code ??
+
+Generics are a very powerful feature that helps us write reusable and flexible code while still keeping string type safety. Normally , if we write a function for a specific type like number or string , we  need to write separate functions for different types, but with Generics , we can write one function that works with any type .
+
+Generics allow us to pass a type as a parameter , so the function can work with different data types without losing type safety . For example we can create a function that returns the same value tit receives, and it will work for string, number or even objects .The best part is that TypeScript still knows the exact type being used . This makes our code more reusable , clean and flexible. instead of writing repeated logic for different types.
