@@ -5,3 +5,10 @@ const filterEvenNumbers =(input:number[]):number[]=>{
 }
 
 
+// Problem 2 
+
+const reverseString =(input:string):string=>{
+    return input.split("").reverse().join("");
+};
+
+
